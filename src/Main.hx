@@ -52,7 +52,7 @@ class Main
 		var amp:Float = -1;
 		var freq:Float = 440/44100;
 
-		// create a stereo sawtoot sound of one sec lingth
+		// create a stereo sawtoot sound of one sec length
 		for(i in 0...44100){
 			sndBuf[i*2] 	= amp;
 			sndBuf[(i*2)+1] = amp;
